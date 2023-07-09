@@ -7,20 +7,26 @@
 }
 
 .title {
-  font-size: 48px;
+  font-size: 64px;
+  font-weight: bold;
+  text-shadow: 1px 1px #aaa, 2px 2px #999, 3px 3px #888, 4px 4px #777,
+    5px 5px #666, 6px 6px #555, 7px 7px 4px #000;
+  color: #ffe4b5;
   text-align: center;
+  padding-top: 15%;
+  padding-bottom: 5%;
 }
 
 .button {
   font-size: 64px;
   height: 120px;
-  width: 360px;
+  width: 400px;
   margin: 0 auto;
+  padding-top: 15px;
   color: aliceblue;
-  background: rgb(55, 152, 102);
+  background: rgb(55, 152, 112);
   display: flex;
   justify-content: center;
   font-weight: bold;
   border-radius: 50px;
-  box-shadow: 4px 4px 0 #bbb;
 }
