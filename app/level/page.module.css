@@ -1,11 +1,16 @@
+.main {
+  font-size: 48px;
+  text-align: center;
+}
+
 .buttonBeginner {
   font-size: 48px;
   height: 120px;
   width: 400px;
   margin: 0 auto;
-  margin-top: 5%;
+  margin-top: 8%;
   color: #f0fff6;
-  background: rgb(55, 152, 112);
+  background: #cd853f;
   display: flex;
   justify-content: center;
   font-weight: bold;
@@ -20,7 +25,7 @@
   margin: 0 auto;
   margin-top: 10%;
   color: aliceblue;
-  background: rgb(55, 152, 112);
+  background: silver;
   display: flex;
   justify-content: center;
   font-weight: bold;
@@ -35,7 +40,7 @@
   margin: 0 auto;
   margin-top: 12%;
   color: aliceblue;
-  background: rgb(55, 152, 112);
+  background: #ffd900c7;
   display: flex;
   justify-content: center;
   font-weight: bold;
