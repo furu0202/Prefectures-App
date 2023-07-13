@@ -1,0 +1,44 @@
+.buttonBeginner {
+  font-size: 48px;
+  height: 120px;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 5%;
+  color: #f0fff6;
+  background: rgb(55, 152, 112);
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.buttonIntermediate {
+  font-size: 48px;
+  height: 120px;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 10%;
+  color: aliceblue;
+  background: rgb(55, 152, 112);
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.buttonAdvanced {
+  font-size: 48px;
+  height: 120px;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 12%;
+  color: aliceblue;
+  background: rgb(55, 152, 112);
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+}
