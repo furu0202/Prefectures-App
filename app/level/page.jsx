@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './page.module.css';
+import Link from 'next/link';
 
 const page = () => {
   return (
@@ -7,13 +8,13 @@ const page = () => {
       <main className={styles.main}>
         <h1>難易度選択</h1>
         <div className={styles.buttonBeginner}>
-          <button>初級編</button>
+          <Link href={'beginner'}>初級編</Link>
         </div>
         <div className={styles.buttonIntermediate}>
-          <button>中級編</button>
+          <Link href={'intermediate'}>中級編</Link>
         </div>
         <div className={styles.buttonAdvanced}>
-          <button>上級編</button>
+          <Link href={'advanced'}>上級編</Link>
         </div>
       </main>
     </div>
