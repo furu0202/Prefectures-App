@@ -2,6 +2,22 @@ import React from 'react';
 import styles from './page.module.css';
 import Link from 'next/link';
 
+const ITEMS = [
+  {
+    level: '初級',
+    explanation: ``,
+  },
+
+  {
+    level: '中級',
+    explanation: ``,
+  },
+
+  {
+    level: '上級',
+    explanation: ``,
+  },
+];
 const page = () => {
   return (
     <div className={styles.container}>
