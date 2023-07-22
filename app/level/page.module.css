@@ -33,6 +33,10 @@
   cursor: pointer;
 }
 
+.buttonArea :hover {
+  transform: translateY(3px);
+}
+
 .buttonIntermediate {
   font-size: 48px;
   height: 120px;
@@ -48,13 +52,16 @@
   cursor: pointer;
 }
 
+.buttonIntermediate :hover {
+  transform: translateY(3px);
+}
+
 .buttonAdvanced {
   font-size: 48px;
   height: 120px;
   width: 400px;
   margin: 0 auto;
   padding-top: 20px;
-
   color: black;
   background: #ffd900c7;
   display: flex;
@@ -62,4 +69,8 @@
   font-weight: bold;
   border-radius: 50px;
   cursor: pointer;
+}
+
+.buttonAdvanced :hover {
+  transform: translateY(3px);
 }
