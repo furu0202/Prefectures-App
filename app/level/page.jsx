@@ -25,14 +25,17 @@ const page = () => {
       <main className={styles.main}>
         <h1>難易度選択</h1>
         <div className={styles.buttonArea}>
-          <div className={styles.buttonBeginner}>
-            <Link href={'beginner'}>初級編</Link>
+          <div>
+            <Link className={styles.buttonBeginner} href={'beginner'}></Link>
           </div>
-          <div className={styles.buttonIntermediate}>
-            <Link href={'intermediate'}>中級編</Link>
+          <div>
+            <Link
+              className={styles.buttonIntermediate}
+              href={'intermediate'}
+            ></Link>
           </div>
-          <div className={styles.buttonAdvanced}>
-            <Link href={'advanced'}>上級編</Link>
+          <div>
+            <Link className={styles.buttonAdvanced} href={'advanced'}></Link>
           </div>
         </div>
       </main>
