@@ -7,8 +7,10 @@ export default function Home() {
       <div className={styles.title}>
         <h1>都道府県クイズ</h1>
       </div>
-      <div className={styles.button}>
-        <Link href={'/level'}>スタート</Link>
+      <div>
+        <Link className={styles.button} href={'/level'}>
+          スタート
+        </Link>
       </div>
     </main>
   );
