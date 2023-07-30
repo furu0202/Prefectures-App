@@ -18,25 +18,36 @@
   display: flex;
   justify-content: space-around;
   padding-top: 100px;
+  padding: 1em;
+}
+
+.beginner {
+  margin: 2em;
+  background: #5fb3f5;
+  padding-bottom: 20px;
+}
+
+.begginerTitle {
+  font-size: 48px;
+  background: #5fb3f5;
+  padding: 4px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 0.05em;
 }
 
 .buttonBeginner {
   font-size: 48px;
   height: 120px;
   width: 400px;
-  margin: 0 auto;
-  padding-top: 20px;
-  color: black;
+  margin: auto;
   background: #cd853f;
   display: flex;
   justify-content: center;
   font-weight: bold;
-  border-radius: 50px;
+  border-radius: 80px;
   cursor: pointer;
-}
-
-.buttonArea :hover {
-  transform: translateY(3px);
 }
 
 .buttonIntermediate {
@@ -54,10 +65,6 @@
   cursor: pointer;
 }
 
-.buttonIntermediate :hover {
-  transform: translateY(3px);
-}
-
 .buttonAdvanced {
   font-size: 48px;
   height: 120px;
@@ -71,8 +78,4 @@
   font-weight: bold;
   border-radius: 50px;
   cursor: pointer;
-}
-
-.buttonAdvanced :hover {
-  transform: translateY(3px);
 }
