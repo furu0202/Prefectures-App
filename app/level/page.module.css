@@ -22,7 +22,8 @@
 }
 
 .beginner {
-  margin: 2em;
+  margin: 15px;
+  width: 300px;
   background: #5fb3f5;
   padding-bottom: 20px;
 }
@@ -38,15 +39,17 @@
 }
 
 .buttonBeginner {
-  font-size: 48px;
+  font-size: 32px;
+  padding-top: 30px;
   height: 120px;
-  width: 400px;
-  margin: auto;
+  width: 200px;
+  margin: 0 auto;
   background: #cd853f;
+  color: white;
   display: flex;
   justify-content: center;
   font-weight: bold;
-  border-radius: 80px;
+  border-radius: 50px;
   cursor: pointer;
 }
 

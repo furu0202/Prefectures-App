@@ -10,8 +10,10 @@ const page = () => {
         <h1>難易度選択</h1>
         <div className={styles.buttonArea}>
           <div className={styles.beginner}>
-            <p className={styles.begginerTitle}>説明文</p>
-            <Link className={styles.buttonBeginner} href={'beginner'}></Link>
+            <p className={styles.begginerTitle}>初級編</p>
+            <Link className={styles.buttonBeginner} href={'beginner'}>
+              スタート
+            </Link>
           </div>
           <div className={styles.intermediate}>
             <p>説明文</p>
