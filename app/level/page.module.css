@@ -24,13 +24,47 @@
 .beginner {
   margin: 15px;
   width: 300px;
-  background: #5fb3f5;
+  background: #cd853f;
+  padding-bottom: 20px;
+}
+
+.intermediate {
+  margin: 15px;
+  width: 300px;
+  background: silver;
+  padding-bottom: 20px;
+}
+
+.advanced {
+  margin: 15px;
+  width: 300px;
+  background: #ffd900c7;
   padding-bottom: 20px;
 }
 
 .begginerTitle {
   font-size: 48px;
-  background: #5fb3f5;
+  background: #cd853f;
+  padding: 4px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.intermediateTitle {
+  font-size: 48px;
+  background: silver;
+  padding: 4px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.advancedTitle {
+  font-size: 48px;
+  background: #ffd900c7;
   padding: 4px;
   text-align: center;
   color: #fff;
@@ -54,13 +88,13 @@
 }
 
 .buttonIntermediate {
-  font-size: 48px;
+  font-size: 32px;
+  padding-top: 30px;
   height: 120px;
-  width: 400px;
+  width: 200px;
   margin: 0 auto;
-  padding-top: 20px;
-  color: black;
   background: silver;
+  color: white;
   display: flex;
   justify-content: center;
   font-weight: bold;
@@ -69,13 +103,14 @@
 }
 
 .buttonAdvanced {
-  font-size: 48px;
+  font-size: 32px;
+  padding-top: 30px;
   height: 120px;
-  width: 400px;
+  width: 200px;
   margin: 0 auto;
-  padding-top: 20px;
-  color: black;
+  padding-top: 30px;
   background: #ffd900c7;
+  color: white;
   display: flex;
   justify-content: center;
   font-weight: bold;

@@ -16,15 +16,16 @@ const page = () => {
             </Link>
           </div>
           <div className={styles.intermediate}>
-            <p>説明文</p>
-            <Link
-              className={styles.buttonIntermediate}
-              href={'intermediate'}
-            ></Link>
+            <p className={styles.intermediateTitle}>中級編</p>
+            <Link className={styles.buttonIntermediate} href={'intermediate'}>
+              スタート
+            </Link>
           </div>
           <div className={styles.advanced}>
-            <p>説明文</p>
-            <Link className={styles.buttonAdvanced} href={'advanced'}></Link>
+            <p className={styles.advancedTitle}>上級編</p>
+            <Link className={styles.buttonAdvanced} href={'advanced'}>
+              スタート
+            </Link>
           </div>
         </div>
       </main>
