@@ -2,6 +2,26 @@ import React from 'react';
 import styles from './page.module.css';
 import Link from 'next/link';
 
+const ITEMS = [
+  {
+    title: '初級編',
+    id: 'beginner',
+    text: `初級編`,
+  },
+
+  {
+    title: '中級編',
+    id: 'intermediate',
+    text: `中級編`,
+  },
+
+  {
+    title: '上級編',
+    id: 'advanced',
+    message: '上級編',
+  },
+];
+
 const page = () => {
   return (
     <div className={styles.container}>
