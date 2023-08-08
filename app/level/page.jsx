@@ -47,6 +47,11 @@ const page = () => {
               スタート
             </Link>
           </div>
+          <div className={styles.setup}>
+            <Link className={styles.buttonSetup} href={'setup'}>
+              設定
+            </Link>
+          </div>
         </div>
       </main>
     </div>
