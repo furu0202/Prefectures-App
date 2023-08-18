@@ -18,7 +18,7 @@ const ITEMS = [
   {
     title: '上級編',
     id: 'advanced',
-    message: '上級編',
+    text: '上級編',
   },
 ];
 
@@ -28,6 +28,11 @@ const page = () => {
       <title>難易度選択画面</title>
       <main className={styles.main}>
         <h1>難易度選択</h1>
+        <div className={styles.setup}>
+          <Link className={styles.buttonSetup} href={'setup'}>
+            設定
+          </Link>
+        </div>
         <div className={styles.buttonArea}>
           <div className={styles.beginner}>
             <h2 className={styles.begginerTitle}>初級編</h2>
@@ -47,11 +52,6 @@ const page = () => {
               スタート
             </Link>
           </div>
-        </div>
-        <div className={styles.setup}>
-          <Link className={styles.buttonSetup} href={'setup'}>
-            設定
-          </Link>
         </div>
       </main>
     </div>
