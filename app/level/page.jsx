@@ -5,19 +5,19 @@ import Link from 'next/link';
 const ITEMS = [
   {
     title: '初級編',
-    id: 'beginner',
+    href: 'beginner',
     text: `初級編`,
   },
 
   {
     title: '中級編',
-    id: 'intermediate',
+    href: 'intermediate',
     text: `中級編`,
   },
 
   {
     title: '上級編',
-    id: 'advanced',
+    href: 'advanced',
     text: '上級編',
   },
 ];
@@ -34,7 +34,10 @@ const page = () => {
           </Link>
         </div>
         <div className={styles.buttonArea}>
-          <div className={styles.beginner}>
+          {ITEMS.map((item) => {
+            return <h2 className={styles.title}>{item.title}</h2>;
+          })}
+          {/* <div className={styles.beginner}>
             <h2 className={styles.begginerTitle}>初級編</h2>
             <Link className={styles.buttonBeginner} href={'beginner'}>
               スタート
@@ -51,7 +54,7 @@ const page = () => {
             <Link className={styles.buttonAdvanced} href={'advanced'}>
               スタート
             </Link>
-          </div>
+          </div> */}
         </div>
       </main>
     </div>
