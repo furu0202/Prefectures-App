@@ -25,7 +25,6 @@ const ITEMS = [
 const page = () => {
   return (
     <div className={styles.container}>
-      <title>難易度選択画面</title>
       <main className={styles.main}>
         <h1>難易度選択</h1>
         <div className={styles.setup}>
