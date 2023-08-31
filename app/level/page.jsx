@@ -22,6 +22,21 @@ const ITEMS = [
   },
 ];
 
+const LINKS = [
+  {
+    id: '1',
+    link: 'buttonBeginner',
+  },
+  {
+    id: '2',
+    link: 'buttonIntermediate',
+  },
+  {
+    id: '3',
+    link: 'buttonAdvanced',
+  },
+];
+
 const page = () => {
   return (
     <div className={styles.container}>
