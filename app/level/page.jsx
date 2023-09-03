@@ -25,15 +25,18 @@ const ITEMS = [
 const LINKS = [
   {
     id: '1',
-    link: 'buttonBeginner',
+    name: 'buttonBeginner',
+    href: '/beginner',
   },
   {
     id: '2',
-    link: 'buttonIntermediate',
+    name: 'buttonIntermediate',
+    href: '/intermediate',
   },
   {
     id: '3',
-    link: 'buttonAdvanced',
+    name: 'buttonAdvanced',
+    href: 'advanced',
   },
 ];
 
@@ -50,6 +53,13 @@ const page = () => {
         <div className={styles.buttonArea}>
           {ITEMS.map((item) => {
             return <h2 className={styles.title}>{item.title}</h2>;
+          })}
+          {LINKS.map((item) => {
+            return (
+              <Link key={item.id} href={item.href} className={styles.name}>
+                {item.name}
+              </Link>
+            );
           })}
           {/* <div className={styles.beginner}>
             <h2 className={styles.begginerTitle}>初級編</h2>
