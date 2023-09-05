@@ -45,11 +45,7 @@ const page = () => {
     <div className={styles.container}>
       <main className={styles.main}>
         <h1>難易度選択</h1>
-        <div className={styles.setup}>
-          <Link className={styles.buttonSetup} href={'setup'}>
-            設定
-          </Link>
-        </div>
+
         <div className={styles.buttonArea}>
           {ITEMS.map((item) => {
             return <h2 className={styles.title}>{item.title}</h2>;
