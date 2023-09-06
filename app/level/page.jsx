@@ -4,18 +4,21 @@ import Link from 'next/link';
 
 const ITEMS = [
   {
+    id: '1',
     title: '初級編',
     href: 'beginner',
     text: `初級編`,
   },
 
   {
+    id: '2',
     title: '中級編',
     href: 'intermediate',
     text: `中級編`,
   },
 
   {
+    id: '3',
     title: '上級編',
     href: 'advanced',
     text: '上級編',
@@ -48,7 +51,11 @@ const page = () => {
 
         <div className={styles.buttonArea}>
           {ITEMS.map((item) => {
-            return <h2 className={styles.title}>{item.title}</h2>;
+            return (
+              <h2 key={styles.id} className={styles.title}>
+                {item.title}
+              </h2>
+            );
           })}
           {LINKS.map((item) => {
             return (
