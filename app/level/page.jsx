@@ -39,7 +39,7 @@ const LINKS = [
   {
     id: '3',
     name: 'buttonAdvanced',
-    href: 'advanced',
+    href: '/advanced',
   },
 ];
 
@@ -52,7 +52,7 @@ const page = () => {
         <div className={styles.buttonArea}>
           {ITEMS.map((item) => {
             return (
-              <h2 key={styles.id} className={styles.title}>
+              <h2 key={item.id} className={styles.title}>
                 {item.title}
               </h2>
             );
