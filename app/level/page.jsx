@@ -50,16 +50,20 @@ const page = () => {
         <h1>難易度選択</h1>
 
         <div className={styles.buttonArea}>
-          {ITEMS.map((item) => {
+          {ITEMS.map((index, item) => {
             return (
-              <h2 key={item.id} className={styles.title}>
+              <h2 key={index} className={styles.title}>
                 {item.title}
               </h2>
             );
           })}
           {LINKS.map((item) => {
             return (
-              <Link key={item.id} href={item.href} className={styles.name}>
+              <Link
+                key={item.id}
+                href={item.href}
+                className={styles['button' + item.name]}
+              >
                 {item.name}
               </Link>
             );
