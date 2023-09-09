@@ -69,10 +69,10 @@
 .buttonBeginner,
 .buttonIntermediate,
 .buttonAdvanced {
-  font-size: 32px;
+  font-size: 28px;
   padding-top: 30px;
   height: 120px;
-  width: 200px;
+  width: 420px;
   margin: 0 auto;
   color: white;
   display: flex;

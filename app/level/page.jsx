@@ -62,7 +62,7 @@ const page = () => {
               <Link
                 key={item.id}
                 href={item.href}
-                className={styles['button' + item.name]}
+                className={`${styles['button']} ${styles[item.name]}`}
               >
                 {item.name}
               </Link>
