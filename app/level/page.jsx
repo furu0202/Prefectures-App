@@ -48,15 +48,15 @@ const page = () => {
     <div className={styles.container}>
       <main className={styles.main}>
         <h1>難易度選択</h1>
-
         <div className={styles.buttonArea}>
-          {ITEMS.map((index, item) => {
+          {ITEMS.map((item) => {
             return (
-              <h2 key={index} className={styles.title}>
+              <h2 key={item.id} className={styles.title}>
                 {item.title}
               </h2>
             );
           })}
+
           {LINKS.map((item) => {
             return (
               <Link

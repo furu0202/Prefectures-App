@@ -14,6 +14,7 @@
   font-weight: bold;
   text-align: center;
 }
+
 .buttonArea {
   display: flex;
   justify-content: space-around;
@@ -69,7 +70,7 @@
 .buttonBeginner,
 .buttonIntermediate,
 .buttonAdvanced {
-  font-size: 28px;
+  font-size: 28spx;
   padding-top: 30px;
   height: 120px;
   width: 420px;
