@@ -68,24 +68,6 @@ const page = () => {
               </Link>
             );
           })}
-          {/* <div className={styles.beginner}>
-            <h2 className={styles.begginerTitle}>初級編</h2>
-            <Link className={styles.buttonBeginner} href={'beginner'}>
-              スタート
-            </Link>
-          </div>
-          <div className={styles.intermediate}>
-            <h2 className={styles.intermediateTitle}>中級編</h2>
-            <Link className={styles.buttonIntermediate} href={'intermediate'}>
-              スタート
-            </Link>
-          </div>
-          <div className={styles.advanced}>
-            <h2 className={styles.advancedTitle}>上級編</h2>
-            <Link className={styles.buttonAdvanced} href={'advanced'}>
-              スタート
-            </Link>
-          </div> */}
         </div>
       </main>
     </div>
