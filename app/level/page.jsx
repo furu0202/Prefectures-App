@@ -48,7 +48,7 @@ const page = () => {
     <div className={styles.container}>
       <main className={styles.main}>
         <h1>難易度選択</h1>
-        <div className={styles.buttonArea}>
+        <div className={styles.titleArea}>
           {ITEMS.map((item) => {
             return (
               <h2 key={item.id} className={styles.title}>
@@ -56,7 +56,8 @@ const page = () => {
               </h2>
             );
           })}
-
+        </div>
+        <div>
           {LINKS.map((item) => {
             return (
               <Link

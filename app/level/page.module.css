@@ -15,6 +15,15 @@
   text-align: center;
 }
 
+.titleArea {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin: 0 10px;
+}
+
 .buttonArea {
   display: flex;
   justify-content: space-around;
