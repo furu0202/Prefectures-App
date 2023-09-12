@@ -27,8 +27,6 @@
 .buttonArea {
   display: flex;
   justify-content: space-around;
-  padding-top: 100px;
-  padding: 1em;
 }
 
 .beginner,

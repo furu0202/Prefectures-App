@@ -28,17 +28,17 @@ const ITEMS = [
 const LINKS = [
   {
     id: '1',
-    name: 'buttonBeginner',
+    name: 'スタート',
     href: '/beginner',
   },
   {
     id: '2',
-    name: 'buttonIntermediate',
+    name: 'スタート',
     href: '/intermediate',
   },
   {
     id: '3',
-    name: 'buttonAdvanced',
+    name: 'スタート',
     href: '/advanced',
   },
 ];
@@ -57,7 +57,7 @@ const page = () => {
             );
           })}
         </div>
-        <div>
+        <div className={styles.buttonArea}>
           {LINKS.map((item) => {
             return (
               <Link
