@@ -7,21 +7,21 @@ const ITEMS = [
     id: '1',
     title: '初級編',
     href: 'beginner',
-    text: `初級編`,
+    text: `初級編のテキストを入力`,
   },
 
   {
     id: '2',
     title: '中級編',
     href: 'intermediate',
-    text: `中級編`,
+    text: `中級編のテキストを入力`,
   },
 
   {
     id: '3',
     title: '上級編',
     href: 'advanced',
-    text: '上級編',
+    text: '上級編のテキストを入力',
   },
 ];
 
