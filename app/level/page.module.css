@@ -15,6 +15,11 @@
   text-align: center;
 }
 
+.boxArea {
+  margin: 2em auto;
+  padding: 2em;
+  background-color: #fff64d;
+}
 .titleArea {
   display: flex;
   justify-content: space-between;
