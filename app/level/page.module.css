@@ -16,22 +16,21 @@
 }
 
 .boxArea {
-  margin: 2em auto;
-  padding: 2em;
+  margin: 1em auto;
   background-color: #fff64d;
+  border: solid 3px #a5a19a;
 }
+
 .titleArea {
   display: flex;
   justify-content: space-between;
-}
-
-.title {
-  margin: 0 10px;
+  margin: 2em;
 }
 
 .buttonArea {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 2em;
 }
 
 .beginner,
