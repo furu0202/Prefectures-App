@@ -105,3 +105,15 @@
 .buttonAdvanced {
   background: #ffd900c7;
 }
+
+.button {
+  font-size: 48px;
+  display: inline-block;
+  width: 100%;
+  max-width: 350px;
+  overflow: hidden;
+  padding: 1.5rem 3rem;
+  color: #fff;
+  border-radius: 50px;
+  background: #000;
+}

@@ -28,17 +28,17 @@ const ITEMS = [
 const LINKS = [
   {
     id: '1',
-    name: 'スタート',
+    name: 'START',
     href: '/beginner',
   },
   {
     id: '2',
-    name: 'スタート',
+    name: 'START',
     href: '/intermediate',
   },
   {
     id: '3',
-    name: 'スタート',
+    name: 'START',
     href: '/advanced',
   },
 ];
