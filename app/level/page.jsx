@@ -54,6 +54,7 @@ const page = () => {
               return (
                 <h2 key={item.id} className={styles.title}>
                   {item.title}
+                  <p className={styles.itemText}>{item.text}</p>
                 </h2>
               );
             })}
