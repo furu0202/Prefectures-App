@@ -17,7 +17,11 @@
 
 .boxArea {
   margin: 1em auto;
-  background-color: #fcf16e;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #333333;
+  border-radius: 10px;
+  background-color: #ffff99;
 }
 
 .titleArea {
