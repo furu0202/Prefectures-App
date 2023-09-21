@@ -49,29 +49,17 @@ const page = () => {
       <main className={styles.main}>
         <h1>難易度選択</h1>
         <div className={styles.boxArea}>
-          <div className={styles.titleArea}>
-            {ITEMS.map((item) => {
-              return (
-                <h2 key={item.id} className={styles.title}>
-                  {item.title}
-                  <p className={styles.itemText}>{item.text}</p>
-                </h2>
-              );
-            })}
-          </div>
-          <div className={styles.buttonArea}>
-            {LINKS.map((item) => {
-              return (
-                <Link
-                  key={item.id}
-                  href={item.href}
-                  className={`${styles['button']} ${styles[item.name]}`}
-                >
+          {ITEMS.map((item) => {
+            return (
+              <div key={item.id} className={styles.itemGroup}>
+                <h2 className={styles.title}>{item.title}</h2>
+                <p className={styles.itemText}>{item.text}</p>
+                <div className={`${styles['button']} ${styles[item.name]}`}>
                   {item.name}
-                </Link>
-              );
-            })}
-          </div>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </main>
     </div>
