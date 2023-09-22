@@ -5,23 +5,23 @@ import Link from 'next/link';
 const ITEMS = [
   {
     id: '1',
-    title: '初級編',
-    href: 'beginner',
-    text: `初級編のテキストを入力`,
+    title: '日本地図クイズ',
+    href: 'mapJpnQuiz',
+    text: `各都道府県の形に関するクイズです`,
   },
 
   {
     id: '2',
-    title: '中級編',
-    href: 'intermediate',
-    text: `中級編のテキストを入力`,
+    title: '地名クイズ',
+    href: 'placeNameQuiz',
+    text: `各都道府県の地名に関するクイズです`,
   },
 
   {
     id: '3',
-    title: '上級編',
-    href: 'advanced',
-    text: '上級編のテキストを入力',
+    title: '名産品クイズ',
+    href: 'localSpecialtyQuiz',
+    text: '各都道府県の名産品に関するクイズです',
   },
 ];
 
@@ -29,17 +29,17 @@ const LINKS = [
   {
     id: '1',
     name: 'START',
-    href: '/beginner',
+    href: '/mapJpn',
   },
   {
     id: '2',
     name: 'START',
-    href: '/intermediate',
+    href: '/placeName',
   },
   {
     id: '3',
     name: 'START',
-    href: '/advanced',
+    href: '/localSpecialty',
   },
 ];
 
