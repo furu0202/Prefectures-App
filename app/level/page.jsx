@@ -5,41 +5,26 @@ import Link from 'next/link';
 const ITEMS = [
   {
     id: '1',
+    name: 'START',
     title: '日本地図クイズ',
-    href: 'mapJpnQuiz',
+    href: '/mapjpn',
     text: `各都道府県の形に関するクイズです`,
   },
 
   {
     id: '2',
+    name: 'START',
     title: '地名クイズ',
-    href: 'placeNameQuiz',
+    href: '/placename',
     text: `各都道府県の地名に関するクイズです`,
   },
 
   {
     id: '3',
+    name: 'START',
     title: '名産品クイズ',
-    href: 'localSpecialtyQuiz',
+    href: '/localspecialty',
     text: '各都道府県の名産品に関するクイズです',
-  },
-];
-
-const LINKS = [
-  {
-    id: '1',
-    name: 'START',
-    href: '/mapJpn',
-  },
-  {
-    id: '2',
-    name: 'START',
-    href: '/placeName',
-  },
-  {
-    id: '3',
-    name: 'START',
-    href: '/localSpecialty',
   },
 ];
 
