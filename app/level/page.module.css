@@ -18,11 +18,16 @@
 .boxArea {
   display: flex;
   margin: 1em auto;
+  height: 70%;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #333333;
   border-radius: 10px;
   background-color: #ffff99;
+}
+
+.itemGroup {
+  margin-top: 10px;
 }
 
 .titleArea {
@@ -39,6 +44,7 @@
 
 .title {
   font-size: 32px;
+  margin-bottom: 30px;
 }
 
 .button {
@@ -61,5 +67,6 @@
 .itemText {
   font-size: 32px;
   margin-top: 10px;
+  margin-bottom: 150px;
   letter-spacing: 0;
 }
