@@ -7,7 +7,7 @@ const ITEMS = [
     id: '1',
     name: 'START',
     title: '日本地図クイズ',
-    href: '/mapjpn',
+    href: '/jpnmap',
     text: `各都道府県の形に関するクイズです`,
   },
 
@@ -22,8 +22,8 @@ const ITEMS = [
   {
     id: '3',
     name: 'START',
-    title: '名産品クイズ',
-    href: '/localspecialty',
+    title: '雑学クイズ',
+    href: '/trivia',
     text: '各都道府県の名産品に関するクイズです',
   },
 ];
@@ -39,9 +39,13 @@ const page = () => {
               <div key={item.id} className={styles.itemGroup}>
                 <h2 className={styles.title}>{item.title}</h2>
                 <p className={styles.itemText}>{item.text}</p>
-                <div className={`${styles['button']} ${styles[item.name]}`}>
+                <Link
+                  key={item.id}
+                  href={item.href}
+                  className={`${styles['button']} ${styles[item.name]}`}
+                >
                   {item.name}
-                </div>
+                </Link>
               </div>
             );
           })}
