@@ -8,7 +8,7 @@ const ITEMS = [
     name: 'START',
     title: '日本地図クイズ',
     href: '/jpnmap',
-    text: `日本地図に関するクイズです`,
+    text: `日本地図に関するクイズを出題。`,
   },
 
   {
@@ -16,7 +16,7 @@ const ITEMS = [
     name: 'START',
     title: '地名クイズ',
     href: '/placename',
-    text: `各都道府県の地名に関するクイズです`,
+    text: `47都道府県の地名に関するクイズを出題。`,
   },
 
   {
@@ -24,7 +24,7 @@ const ITEMS = [
     name: 'START',
     title: '雑学クイズ',
     href: '/trivia',
-    text: '各都道府県の雑学に関するクイズです',
+    text: '４７都道府県の雑学に関するクイズを出題。',
   },
 ];
 
