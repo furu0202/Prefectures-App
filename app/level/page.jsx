@@ -8,7 +8,6 @@ const ITEMS = [
     name: 'START',
     title: '日本地図クイズ',
     href: '/jpnmap',
-    text: `日本地図に関するクイズを出題。`,
   },
 
   {
@@ -16,7 +15,6 @@ const ITEMS = [
     name: 'START',
     title: '地名クイズ',
     href: '/placename',
-    text: `47都道府県の地名に関するクイズを出題。`,
   },
 
   {
@@ -24,7 +22,6 @@ const ITEMS = [
     name: 'START',
     title: '雑学クイズ',
     href: '/trivia',
-    text: '４７都道府県の雑学に関するクイズを出題。',
   },
 ];
 
@@ -32,14 +29,13 @@ const page = () => {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <h1>難易度選択</h1>
+        <h1>コース選択</h1>
         <p>設定</p>
         <div className={styles.boxArea}>
           {ITEMS.map((item) => {
             return (
               <div key={item.id} className={styles.itemGroup}>
                 <h2 className={styles.title}>{item.title}</h2>
-                <p className={styles.itemText}>{item.text}</p>
                 <Link
                   key={item.id}
                   href={item.href}

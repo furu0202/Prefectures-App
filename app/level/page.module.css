@@ -17,6 +17,7 @@
 
 .boxArea {
   display: flex;
+  justify-content: space-between;
   margin: 1em auto;
   height: 70%;
   padding: 10px;
@@ -27,13 +28,13 @@
 }
 
 .itemGroup {
+  margin: 0 40px;
   margin-top: 10px;
 }
 
 .titleArea {
   display: flex;
   justify-content: space-between;
-  margin: 2em;
 }
 
 .buttonArea {
