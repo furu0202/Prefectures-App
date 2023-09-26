@@ -33,6 +33,7 @@ const page = () => {
     <div className={styles.container}>
       <main className={styles.main}>
         <h1>難易度選択</h1>
+        <p>設定</p>
         <div className={styles.boxArea}>
           {ITEMS.map((item) => {
             return (
