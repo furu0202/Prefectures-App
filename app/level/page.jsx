@@ -23,6 +23,24 @@ const ITEMS = [
     title: '雑学クイズ',
     href: '/trivia',
   },
+  {
+    id: '4',
+    name: 'START',
+    title: '駅名クイズ',
+    href: '/stationname',
+  },
+  {
+    id: '5',
+    name: 'START',
+    title: '方言クイズ',
+    href: '/dialect',
+  },
+  {
+    id: '6',
+    name: 'START',
+    title: '県庁所在地クイズ',
+    href: '/prefecturalcapital',
+  },
 ];
 
 const page = () => {
