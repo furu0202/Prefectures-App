@@ -38,3 +38,5 @@ const ITEMS = [
     href: '/prefecturalcapital',
   },
 ];
+
+export default ITEMS;
