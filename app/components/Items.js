@@ -39,4 +39,4 @@ const ITEMS = [
   },
 ];
 
-export default ITEMS;
+export { ITEMS };
