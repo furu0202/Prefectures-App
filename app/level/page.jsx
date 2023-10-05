@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './page.module.css';
 import Link from 'next/link';
-import ITEMS, { Items } from '../components/Items';
+import { ITEMS } from '../components/Items';
 
-<Items />;
+<ITEMS />;
 
 const page = () => {
   return (
@@ -16,13 +16,10 @@ const page = () => {
             return (
               <div key={item.id} className={styles.itemGroup}>
                 <h2 className={styles.title}>{item.title}</h2>
-                <Link
-                  key={item.id}
-                  href={item.href}
-                  className={`${styles['button']} ${styles[item.name]}`}
-                >
+                <Link key={item.id} href={item.href}></Link>
+                <button className={`${styles['button']} ${styles[item.name]}`}>
                   {item.name}
-                </Link>
+                </button>
               </div>
             );
           })}
