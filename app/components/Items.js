@@ -1,4 +1,4 @@
-const ITEMS = [
+export const ITEMS = [
   {
     id: '1',
     name: 'START',
@@ -38,5 +38,3 @@ const ITEMS = [
     href: '/prefecturalcapital',
   },
 ];
-
-export { ITEMS };
