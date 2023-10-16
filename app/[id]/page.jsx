@@ -10,6 +10,15 @@ const Page = () => {
   return (
     <div>
       <h1>{pathData.title}</h1>
+      <h1>第X問</h1>
+      <h2>現在の正解数</h2>
+      <h2>問題文</h2>
+      <div>
+        <p>選択肢A</p>
+        <p>選択肢B</p>
+        <p>選択肢C</p>
+        <p>選択肢D</p>
+      </div>
     </div>
   );
 };
