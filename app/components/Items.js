@@ -38,3 +38,11 @@ export const ITEMS = [
     href: '/prefecturalcapital',
   },
 ];
+
+export const QUESTIONS = [
+  {
+    id: '1',
+    options: ['選択肢1', '選択肢2', '選択肢3', '選択肢4'],
+    correctAnswer: '選択肢1',
+  },
+];
