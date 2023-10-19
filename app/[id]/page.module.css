@@ -1,0 +1,11 @@
+.container {
+  background-color: #ffff99;
+}
+
+.title {
+  font-size: 56px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 16px;
+  letter-spacing: 0.2em;
+}
