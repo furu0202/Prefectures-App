@@ -10,6 +10,18 @@
   letter-spacing: 0.2em;
 }
 
+.questionArea {
+  font-size: 32px;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 240px;
+  padding: 5px;
+  margin: 30px;
+  background-color: #ffff99;
+  color: #2c3e50;
+  text-align: center;
+}
+
 .choicesContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;

@@ -12,9 +12,9 @@ const Page = () => {
     <div className={styles.container}>
       <div className={styles.main}>
         <h1 className={styles.title}>{pathData.title}</h1>
-        <h1>第X問</h1>
-        <h2>現在の正解数</h2>
-        <h2>問題文{pathData.question}</h2>
+        <h1>第X問 / 第Y問</h1>
+        <h2>現在の正解数:X問</h2>
+        <h2 className={styles.questionArea}>問題文{pathData.question}</h2>
         <div className={styles.choicesContainer}>
           <p className={styles.choicesItem}>選択肢A</p>
           <p className={styles.choicesItem}>選択肢B</p>
