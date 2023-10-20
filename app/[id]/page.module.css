@@ -9,3 +9,22 @@
   padding-top: 16px;
   letter-spacing: 0.2em;
 }
+
+.choicesContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+.choicesItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: skyblue;
+  border: 1px solid gray;
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin: 25px;
+  height: 100px;
+}
