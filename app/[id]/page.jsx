@@ -8,6 +8,9 @@ import { ITEMS } from '../components/Items';
 const Page = () => {
   const pathname = usePathname();
   const pathData = ITEMS.find((item) => item.href === pathname);
+  const buttonAlert = () => {
+    alert('Click');
+  };
   return (
     <div className={styles.container}>
       <div className={styles.main}>
@@ -16,10 +19,18 @@ const Page = () => {
         <h2 className={styles.totalCorrectAnswer}>現在の正解数:X問</h2>
         <h2 className={styles.questionArea}>問題文{pathData.question}</h2>
         <div className={styles.choicesContainer}>
-          <p className={styles.choicesItem}>選択肢A</p>
-          <p className={styles.choicesItem}>選択肢B</p>
-          <p className={styles.choicesItem}>選択肢C</p>
-          <p className={styles.choicesItem}>選択肢D</p>
+          <p className={styles.choicesItem}>
+            <button onClick={buttonAlert}>選択肢A</button>
+          </p>
+          <p className={styles.choicesItem}>
+            <button onClick={buttonAlert}>選択肢B</button>
+          </p>
+          <p className={styles.choicesItem}>
+            <button onClick={buttonAlert}>選択肢C</button>
+          </p>
+          <p className={styles.choicesItem}>
+            <button onClick={buttonAlert}>選択肢D</button>
+          </p>
         </div>
       </div>
     </div>
