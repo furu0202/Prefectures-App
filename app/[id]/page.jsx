@@ -11,6 +11,7 @@ const Page = () => {
   const buttonAlert = () => {
     alert('Click');
   };
+  const choicesItem = ['選択肢A', '選択肢B', '選択肢C', '選択肢D'];
   return (
     <div className={styles.container}>
       <div className={styles.main}>
