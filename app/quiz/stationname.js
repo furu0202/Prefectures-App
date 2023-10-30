@@ -2,6 +2,7 @@ const quizData = [
   {
     title: '「四条畷」この駅名を答えよ',
     options: arrayShuffle([
+      { id: 1 },
       { textResponse: 'よんじょうなわ', isCorrect: false },
       { textResponse: 'しじょうなわて', isCorrect: true },
       { textResponse: 'よつじょうわら', isCorrect: false },
@@ -11,6 +12,7 @@ const quizData = [
   {
     title: '「喜連瓜破」この駅名を答えよ',
     options: arrayShuffle([
+      { id: 2 },
       { textResponse: 'きつらうつわ', isCorrect: false },
       { textResponse: 'きれうりわり', isCorrect: true },
       { textResponse: 'きれんうつは', isCorrect: false },
@@ -20,6 +22,7 @@ const quizData = [
   {
     title: '「柘植」この駅名を答えよ',
     options: arrayShuffle([
+      { id: 3 },
       { textResponse: 'きうえ', isCorrect: false },
       { textResponse: 'やし', isCorrect: false },
       { textResponse: 'きしょく', isCorrect: false },
@@ -29,6 +32,7 @@ const quizData = [
   {
     title: '「勝原」この駅名を答えよ',
     options: arrayShuffle([
+      { id: 4 },
       { textResponse: 'まさはら', isCorrect: false },
       { textResponse: 'かちはら', isCorrect: false },
       { textResponse: 'いくさはら', isCorrect: false },
@@ -38,6 +42,7 @@ const quizData = [
   {
     title: '「小牛田」この駅名を答えよ',
     options: arrayShuffle([
+      { id: 5 },
       { textResponse: 'こごた', isCorrect: true },
       { textResponse: 'しぎゅう', isCorrect: false },
       { textResponse: 'ぎょうた', isCorrect: false },
