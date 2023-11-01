@@ -1,4 +1,4 @@
-const quizData = [
+const dialectQuizData = [
   {
     title: '福岡県で主に使われる方言「なんばしよっと」意味を答えよ',
     options: [

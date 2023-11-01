@@ -1,4 +1,4 @@
-const quizData = [
+const placenameQuizData = [
   {
     title: '「熱海」この地名を答えよ',
     options: [

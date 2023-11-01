@@ -1,4 +1,4 @@
-const quizData = [
+const prefecturalQuizData = [
   {
     title: '大阪府の県庁所在地を答えよ',
     options: [
