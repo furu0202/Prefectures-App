@@ -33,11 +33,13 @@ const Page = () => {
         </h2>
         <div className={styles.choicesContainer}>
           {pathData.quizData[currentQuestion].options.map((item, index) => (
-            <p key={index} className={styles.choicesItem}>
-              <button onClick={() => handleClick(item.isCorrect)}>
-                {item.textResponse}
-              </button>
-            </p>
+            <button
+              key={index}
+              className={styles.choicesItem}
+              onClick={() => handleClick(item.isCorrect)}
+            >
+              {item.textResponse}
+            </button>
           ))}
         </div>
       </div>
