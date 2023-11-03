@@ -1,4 +1,5 @@
 import { dialectQuizData } from '../quiz/dialect';
+import { jpnMapQuizData } from '../quiz/jpnmap';
 import { placeNameQuizData } from '../quiz/placename';
 import { prefecturalCapitalQuizData } from '../quiz/prefecturalcapital';
 import { stationNameQuizData } from '../quiz/stationname';
@@ -10,7 +11,7 @@ export const ITEMS = [
     name: 'START',
     title: '日本地図クイズ',
     href: '/jpnmap',
-    quizData: [],
+    quizData: jpnMapQuizData,
   },
 
   {
