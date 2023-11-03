@@ -1,4 +1,4 @@
-const triviaQuizData = [
+export const triviaQuizData = [
   {
     title:
       '2012年5月22日にグランドオープンした、地上デジタル放送などの電波を送信する世界一高い自立電波塔である「東京スカイツリー」があるのは東京都何区か答えよ',

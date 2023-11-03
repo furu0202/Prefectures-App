@@ -1,4 +1,4 @@
-const placenameQuizData = [
+export const placeNameQuizData = [
   {
     title: '「熱海」この地名を答えよ',
     options: [

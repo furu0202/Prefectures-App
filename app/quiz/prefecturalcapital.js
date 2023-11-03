@@ -1,4 +1,4 @@
-const prefecturalQuizData = [
+export const prefecturalCapitalQuizData = [
   {
     title: '大阪府の県庁所在地を答えよ',
     options: [

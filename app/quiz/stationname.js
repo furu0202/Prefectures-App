@@ -1,4 +1,4 @@
-const stationNameQuizData = [
+export const stationNameQuizData = [
   {
     title: '「四条畷」この駅名を答えよ',
     options: [
