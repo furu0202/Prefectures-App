@@ -28,11 +28,11 @@ const Page = () => {
           {pathData.quizData[currentQuestion].title}
         </h2>
         <div className={styles.choicesContainer}>
-          {pathData.quizData[currentQuestion].options.map((item, index) => {
+          {pathData.quizData[currentQuestion].options.map((item, index) => (
             <p key={index} className={styles.choicesItem}>
               <button onClick={() => handleClick()}>{item.textResponse}</button>
-            </p>;
-          })}
+            </p>
+          ))}
         </div>
       </div>
     </div>
