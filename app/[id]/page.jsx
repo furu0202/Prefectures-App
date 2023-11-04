@@ -13,18 +13,15 @@ const Page = () => {
   const handleClick = (isCorrect) => {
     if (isCorrect) {
       setCount(count + 1);
+      alert('正解です');
+    } else {
+      alert('不正解です');
     }
     if (currentQuestion < pathData.quizData.length - 1) {
       setCurrentQuestion(currentQuestion + 1);
     } else {
     }
   };
-  if (isCorrect) {
-    alert('正解です');
-  } else {
-    alert('不正解です');
-  }
-
   return (
     <div className={styles.container}>
       <div className={styles.main}>
