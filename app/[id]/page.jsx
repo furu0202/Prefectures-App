@@ -19,6 +19,11 @@ const Page = () => {
     } else {
     }
   };
+  if (isCorrect) {
+    alert('正解です');
+  } else {
+    alert('不正解です');
+  }
 
   return (
     <div className={styles.container}>
