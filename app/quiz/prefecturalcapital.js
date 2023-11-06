@@ -44,4 +44,31 @@ export const prefecturalCapitalQuizData = [
       { textResponse: '津山', isCorrect: false },
     ],
   },
+  {
+    title: '兵庫の県庁所在地を答えよ',
+    options: [
+      { textResponse: '兵庫', isCorrect: false },
+      { textResponse: '神戸', isCorrect: true },
+      { textResponse: '三宮', isCorrect: false },
+      { textResponse: '姫路', isCorrect: false },
+    ],
+  },
+  {
+    title: '青森の県庁所在地を答えよ',
+    options: [
+      { textResponse: '青森', isCorrect: true },
+      { textResponse: 'むつ', isCorrect: false },
+      { textResponse: '八戸', isCorrect: false },
+      { textResponse: '十和田', isCorrect: false },
+    ],
+  },
+  {
+    title: '秋田の県庁所在地を答えよ',
+    options: [
+      { textResponse: '秋田', isCorrect: true },
+      { textResponse: '横手', isCorrect: false },
+      { textResponse: '大仙', isCorrect: false },
+      { textResponse: '由利本荘', isCorrect: false },
+    ],
+  },
 ];

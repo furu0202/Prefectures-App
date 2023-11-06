@@ -44,4 +44,31 @@ export const stationNameQuizData = [
       { textResponse: 'おうた', isCorrect: false },
     ],
   },
+  {
+    title: '「刑部」この駅名を答えよ',
+    options: [
+      { textResponse: 'おさかべ', isCorrect: true },
+      { textResponse: 'ぎょうぶ', isCorrect: false },
+      { textResponse: 'けいぶ', isCorrect: false },
+      { textResponse: 'ごんべ', isCorrect: false },
+    ],
+  },
+  {
+    title: '「廿日市」この駅名を答えよ',
+    options: [
+      { textResponse: 'あまんし', isCorrect: false },
+      { textResponse: 'ひびし', isCorrect: false },
+      { textResponse: 'はつかいち', isCorrect: true },
+      { textResponse: 'あまかし', isCorrect: false },
+    ],
+  },
+  {
+    title: '「日出」この駅名を答えよ',
+    options: [
+      { textResponse: 'ひで', isCorrect: false },
+      { textResponse: 'ひず', isCorrect: true },
+      { textResponse: 'にす', isCorrect: false },
+      { textResponse: 'ひじ', isCorrect: false },
+    ],
+  },
 ];

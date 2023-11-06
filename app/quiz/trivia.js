@@ -47,4 +47,31 @@ export const triviaQuizData = [
       { textResponse: '宮城県', isCorrect: false },
     ],
   },
+  {
+    title: '2023年10月現在、日本で2番目に人口が少ない県を答えよ',
+    options: [
+      { textResponse: '徳島県', isCorrect: false },
+      { textResponse: '高知県', isCorrect: false },
+      { textResponse: '島根県', isCorrect: true },
+      { textResponse: '鳥取県', isCorrect: false },
+    ],
+  },
+  {
+    title: '「レンゲソウ」が県花である都道府県を答えよ',
+    options: [
+      { textResponse: '徳島県', isCorrect: false },
+      { textResponse: '岩手県', isCorrect: false },
+      { textResponse: '岐阜県', isCorrect: true },
+      { textResponse: '宮崎県', isCorrect: false },
+    ],
+  },
+  {
+    title: '「イヌワシ」が県鳥である都道府県を答えよ',
+    options: [
+      { textResponse: '石川県', isCorrect: true },
+      { textResponse: '青森県', isCorrect: false },
+      { textResponse: '広島県', isCorrect: false },
+      { textResponse: '福岡県', isCorrect: false },
+    ],
+  },
 ];
