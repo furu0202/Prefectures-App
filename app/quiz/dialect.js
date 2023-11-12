@@ -44,4 +44,31 @@ export const dialectQuizData = [
       { textResponse: '温い', isCorrect: false },
     ],
   },
+  {
+    title: '北海道で主に使われる方言「なして」意味を答えよ',
+    options: [
+      { textResponse: 'どうして', isCorrect: true },
+      { textResponse: 'なぜ', isCorrect: false },
+      { textResponse: 'こうして', isCorrect: false },
+      { textResponse: 'あれ', isCorrect: false },
+    ],
+  },
+  {
+    title: '沖縄県で主に使われる方言「なんくるないさ」意味を答えよ',
+    options: [
+      { textResponse: 'いってきます', isCorrect: false },
+      { textResponse: 'なんとかなるさ', isCorrect: false },
+      { textResponse: '見当たらない', isCorrect: false },
+      { textResponse: '問題ない', isCorrect: true },
+    ],
+  },
+  {
+    title: '鳥取県で主に使われる方言「だんだん」意味を答えよ',
+    options: [
+      { textResponse: '徐々に', isCorrect: false },
+      { textResponse: 'ありがとう', isCorrect: true },
+      { textResponse: '温かい', isCorrect: false },
+      { textResponse: '落ち着く', isCorrect: false },
+    ],
+  },
 ];
