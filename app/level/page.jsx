@@ -7,7 +7,7 @@ const Page = () => (
   <div className={styles.container}>
     <main className={styles.main}>
       <h1>コース選択</h1>
-      <p>設定</p>
+      <p className={styles.settingButton}>設定</p>
       <div className={styles.boxArea}>
         {ITEMS.map((item) => (
           <div key={item.id} className={styles.itemGroup}>

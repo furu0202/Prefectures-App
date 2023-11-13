@@ -40,6 +40,20 @@
   justify-content: space-between;
 }
 
+.settingButton {
+  font-size: 24px;
+  display: inline-block;
+  width: 50%;
+  max-width: 200px;
+  overflow: hidden;
+  padding: 10px 10px;
+  color: #fff;
+  border-radius: 50px;
+  background: #000;
+  cursor: pointer;
+  letter-spacing: 0.3em;
+}
+
 .buttonArea {
   display: flex;
   justify-content: space-between;
