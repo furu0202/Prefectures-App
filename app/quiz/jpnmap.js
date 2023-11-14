@@ -63,12 +63,12 @@ export const jpnMapQuizData = [
     ],
   },
   {
-    title: '本初子午線がある都道府県は何県ですか？',
+    title: '日本で一番大きな砂漠がある都道府県は何県ですか？',
     options: [
-      { textResponse: '宮城', isCorrect: false },
-      { textResponse: '福岡', isCorrect: false },
-      { textResponse: '兵庫', isCorrect: true },
-      { textResponse: '富山', isCorrect: false },
+      { textResponse: '青森', isCorrect: true },
+      { textResponse: '島根', isCorrect: false },
+      { textResponse: '鳥取', isCorrect: false },
+      { textResponse: '鹿児島', isCorrect: false },
     ],
   },
   {
@@ -78,6 +78,15 @@ export const jpnMapQuizData = [
       { textResponse: '鹿児島', isCorrect: false },
       { textResponse: '島根', isCorrect: true },
       { textResponse: '熊本', isCorrect: false },
+    ],
+  },
+  {
+    title: '琵琶湖がある都道府県は何県ですか？',
+    options: [
+      { textResponse: '三重', isCorrect: false },
+      { textResponse: '石川', isCorrect: false },
+      { textResponse: '山梨', isCorrect: false },
+      { textResponse: '滋賀', isCorrect: true },
     ],
   },
 ];
