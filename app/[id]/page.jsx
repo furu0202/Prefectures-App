@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import styles from './page.module.css';
+import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { ITEMS } from '../components/Items';
 
@@ -10,18 +11,18 @@ const Page = () => {
   const pathData = ITEMS.find((item) => item.href === pathname);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [count, setCount] = useState(0);
+
   const handleClick = (isCorrect) => {
     if (isCorrect) {
       setCount(count + 1);
-      alert('正解です');
     } else {
-      alert('不正解です');
     }
     if (currentQuestion < pathData.quizData.length - 1) {
       setCurrentQuestion(currentQuestion + 1);
     } else {
     }
   };
+
   return (
     <div className={styles.container}>
       <div className={styles.main}>
