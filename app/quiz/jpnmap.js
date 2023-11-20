@@ -89,4 +89,31 @@ export const jpnMapQuizData = [
       { textResponse: '滋賀県', isCorrect: true },
     ],
   },
+  {
+    title: 'ディズニーランドがある都道府県を答えよ',
+    options: [
+      { textResponse: '東京都', isCorrect: false },
+      { textResponse: '神奈川県', isCorrect: false },
+      { textResponse: '北海道', isCorrect: false },
+      { textResponse: '千葉県', isCorrect: true },
+    ],
+  },
+  {
+    title: 'サンリオピューロランドがある都道府県を答えよ',
+    options: [
+      { textResponse: '福岡県', isCorrect: false },
+      { textResponse: '大阪府', isCorrect: false },
+      { textResponse: '神奈川県', isCorrect: false },
+      { textResponse: '東京都', isCorrect: true },
+    ],
+  },
+  {
+    title: 'ハウステンボスがある都道府県を答えよ',
+    options: [
+      { textResponse: '長崎県', isCorrect: true },
+      { textResponse: '鳥取県', isCorrect: false },
+      { textResponse: '兵庫県', isCorrect: false },
+      { textResponse: '青森', isCorrect: false },
+    ],
+  },
 ];

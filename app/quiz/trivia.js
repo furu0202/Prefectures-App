@@ -74,4 +74,22 @@ export const triviaQuizData = [
       { textResponse: '福岡県', isCorrect: false },
     ],
   },
+  {
+    title: '「さくらんぼ」の生産量が日本１位の都道府県を答えよ',
+    options: [
+      { textResponse: '山形県', isCorrect: true },
+      { textResponse: '青森県', isCorrect: false },
+      { textResponse: '秋田県', isCorrect: false },
+      { textResponse: '岩手県', isCorrect: false },
+    ],
+  },
+  {
+    title: '「ぶどう」の生産量が日本１位の都道府県を答えよ',
+    options: [
+      { textResponse: '高知県', isCorrect: false },
+      { textResponse: '大分県', isCorrect: false },
+      { textResponse: '山梨県', isCorrect: true },
+      { textResponse: '秋田県', isCorrect: false },
+    ],
+  },
 ];
