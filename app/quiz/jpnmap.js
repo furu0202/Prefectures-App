@@ -1,3 +1,11 @@
+const shuffleArray = (array) => {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+};
+
 export const jpnMapQuizData = [
   {
     title: '「富士山」という山がある都道府県を答えよ',
