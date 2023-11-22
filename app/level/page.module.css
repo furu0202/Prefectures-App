@@ -54,6 +54,10 @@
   letter-spacing: 0.3em;
 }
 
+.settingButton:hover {
+  transform: scale(1.1, 1.1);
+}
+
 .buttonArea {
   display: flex;
   justify-content: space-between;
