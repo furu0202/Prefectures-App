@@ -44,7 +44,7 @@ export const prefecturalCapitalQuizData = [
     ],
   },
   {
-    title: '岡山の県庁所在地を答えよ',
+    title: '岡山県の県庁所在地を答えよ',
     options: [
       { textResponse: '岡山', isCorrect: false },
       { textResponse: '倉敷', isCorrect: true },
@@ -53,7 +53,7 @@ export const prefecturalCapitalQuizData = [
     ],
   },
   {
-    title: '兵庫の県庁所在地を答えよ',
+    title: '兵庫県の県庁所在地を答えよ',
     options: [
       { textResponse: '兵庫', isCorrect: false },
       { textResponse: '神戸', isCorrect: true },
@@ -62,7 +62,7 @@ export const prefecturalCapitalQuizData = [
     ],
   },
   {
-    title: '青森の県庁所在地を答えよ',
+    title: '青森県の県庁所在地を答えよ',
     options: [
       { textResponse: '青森', isCorrect: true },
       { textResponse: 'むつ', isCorrect: false },
@@ -71,12 +71,30 @@ export const prefecturalCapitalQuizData = [
     ],
   },
   {
-    title: '秋田の県庁所在地を答えよ',
+    title: '秋田県の県庁所在地を答えよ',
     options: [
       { textResponse: '秋田', isCorrect: true },
       { textResponse: '横手', isCorrect: false },
       { textResponse: '大仙', isCorrect: false },
       { textResponse: '由利本荘', isCorrect: false },
+    ],
+  },
+  {
+    title: '宮城県の県庁所在地を答えよ',
+    options: [
+      { textResponse: '石巻', isCorrect: false },
+      { textResponse: '宮城', isCorrect: false },
+      { textResponse: '仙台', isCorrect: true },
+      { textResponse: '気仙沼', isCorrect: false },
+    ],
+  },
+  {
+    title: '岩手県の県庁所在地を答えよ',
+    options: [
+      { textResponse: '北上', isCorrect: false },
+      { textResponse: '奥州', isCorrect: false },
+      { textResponse: '岩手', isCorrect: false },
+      { textResponse: '盛岡', isCorrect: true },
     ],
   },
 ];

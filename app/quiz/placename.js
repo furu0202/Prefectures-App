@@ -52,4 +52,40 @@ export const placeNameQuizData = [
       { textResponse: 'あまご', isCorrect: false },
     ],
   },
+  {
+    title: '「蹴上」この駅名を答えよ',
+    options: [
+      { textResponse: 'けあげ', isCorrect: true },
+      { textResponse: 'こしがみ', isCorrect: false },
+      { textResponse: 'じょうじょう', isCorrect: false },
+      { textResponse: 'けりかみ', isCorrect: false },
+    ],
+  },
+  {
+    title: '「隼」この駅名を答えよ',
+    options: [
+      { textResponse: 'しゅん', isCorrect: false },
+      { textResponse: 'はやぶさ', isCorrect: true },
+      { textResponse: 'はやて', isCorrect: false },
+      { textResponse: 'しゅう', isCorrect: false },
+    ],
+  },
+  {
+    title: '「羽咋」この駅名を答えよ',
+    options: [
+      { textResponse: 'はぶ', isCorrect: false },
+      { textResponse: 'はくい', isCorrect: true },
+      { textResponse: 'うずき', isCorrect: false },
+      { textResponse: 'うどう', isCorrect: false },
+    ],
+  },
+  {
+    title: '「市城」この駅名を答えよ',
+    options: [
+      { textResponse: 'いちぎ', isCorrect: false },
+      { textResponse: 'いちしろ', isCorrect: true },
+      { textResponse: 'いちぐう', isCorrect: false },
+      { textResponse: 'いちじょう', isCorrect: false },
+    ],
+  },
 ];
