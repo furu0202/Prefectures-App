@@ -121,7 +121,34 @@ export const jpnMapQuizData = [
       { textResponse: '長崎県', isCorrect: true },
       { textResponse: '鳥取県', isCorrect: false },
       { textResponse: '兵庫県', isCorrect: false },
-      { textResponse: '青森', isCorrect: false },
+      { textResponse: '青森県', isCorrect: false },
+    ],
+  },
+  {
+    title: '富士急ハイランドがある都道府県を答えよ',
+    options: [
+      { textResponse: '山梨県', isCorrect: true },
+      { textResponse: '静岡県', isCorrect: false },
+      { textResponse: '岐阜県', isCorrect: false },
+      { textResponse: '愛知県', isCorrect: false },
+    ],
+  },
+  {
+    title: '鬼怒川温泉がある都道府県を答えよ',
+    options: [
+      { textResponse: '栃木県', isCorrect: true },
+      { textResponse: '大分県', isCorrect: false },
+      { textResponse: '福井県', isCorrect: false },
+      { textResponse: '石川県', isCorrect: false },
+    ],
+  },
+  {
+    title: '平等院鳳凰堂がある都道府県を答えよ',
+    options: [
+      { textResponse: '石川県', isCorrect: false },
+      { textResponse: '京都府', isCorrect: true },
+      { textResponse: '和歌山県', isCorrect: false },
+      { textResponse: '奈良県', isCorrect: false },
     ],
   },
 ];
