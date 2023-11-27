@@ -106,4 +106,31 @@ export const prefecturalCapitalQuizData = [
       { textResponse: '山形市', isCorrect: true },
     ],
   },
+  {
+    title: '福島県の県庁所在地を答えよ',
+    options: [
+      { textResponse: 'いわき市', isCorrect: false },
+      { textResponse: '会津若松市', isCorrect: false },
+      { textResponse: '郡山市', isCorrect: false },
+      { textResponse: '福島市', isCorrect: true },
+    ],
+  },
+  {
+    title: '茨城県の県庁所在地を答えよ',
+    options: [
+      { textResponse: '茨城市', isCorrect: false },
+      { textResponse: '水戸市', isCorrect: true },
+      { textResponse: '日立市', isCorrect: false },
+      { textResponse: 'つくば市', isCorrect: false },
+    ],
+  },
+  {
+    title: '栃木県の県庁所在地を答えよ',
+    options: [
+      { textResponse: '栃木市', isCorrect: false },
+      { textResponse: '宇都宮市', isCorrect: true },
+      { textResponse: '足利市', isCorrect: false },
+      { textResponse: '日光市', isCorrect: false },
+    ],
+  },
 ];
