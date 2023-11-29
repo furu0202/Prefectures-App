@@ -2,15 +2,16 @@
 
 import React, { useState } from 'react';
 import styles from './page.module.css';
-import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { ITEMS } from '../components/Items';
+import Link from 'next/link';
 
 const Page = () => {
   const pathname = usePathname();
   const pathData = ITEMS.find((item) => item.href === pathname);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [count, setCount] = useState(0);
+  const [quizCompleted, setQuizCompleted] = useState(false);
 
   const handleClick = (isCorrect) => {
     if (isCorrect) {
@@ -20,6 +21,7 @@ const Page = () => {
     if (currentQuestion < pathData.quizData.length - 1) {
       setCurrentQuestion(currentQuestion + 1);
     } else {
+      setQuizCompleted(true);
     }
   };
 
@@ -45,6 +47,11 @@ const Page = () => {
             </button>
           ))}
         </div>
+        {quizCompleted ? (
+          <div>
+            <Link href='/result'></Link>
+          </div>
+        ) : null}
       </div>
     </div>
   );
