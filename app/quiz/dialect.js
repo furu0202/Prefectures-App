@@ -1,11 +1,3 @@
-const shuffleArray = (array) => {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-  return array;
-};
-
 export const dialectQuizData = [
   {
     title: '福岡県で主に使われる方言「なんばしよっと」意味を答えよ',
