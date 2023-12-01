@@ -71,4 +71,58 @@ export const stationNameQuizData = [
       { textResponse: 'ひじ', isCorrect: false },
     ],
   },
+  {
+    title: '「二郎」この駅名を答えよ',
+    options: [
+      { textResponse: 'じろう', isCorrect: false },
+      { textResponse: 'にろう', isCorrect: true },
+      { textResponse: 'ふたろう', isCorrect: false },
+      { textResponse: 'ふだろう', isCorrect: false },
+    ],
+  },
+  {
+    title: '「轟」この駅名を答えよ',
+    options: [
+      { textResponse: 'とどろき', isCorrect: false },
+      { textResponse: 'どめき', isCorrect: true },
+      { textResponse: 'どとろき', isCorrect: false },
+      { textResponse: 'とつぎ', isCorrect: false },
+    ],
+  },
+  {
+    title: '「廿日市」この駅名を答えよ',
+    options: [
+      { textResponse: 'あまんし', isCorrect: false },
+      { textResponse: 'ひびし', isCorrect: false },
+      { textResponse: 'はつかいち', isCorrect: true },
+      { textResponse: 'あまかし', isCorrect: false },
+    ],
+  },
+  {
+    title: '「愛子」この駅名を答えよ',
+    options: [
+      { textResponse: 'あいこ', isCorrect: false },
+      { textResponse: 'まいこ', isCorrect: false },
+      { textResponse: 'あやし', isCorrect: true },
+      { textResponse: 'まなし', isCorrect: false },
+    ],
+  },
+  {
+    title: '「愛子」この駅名を答えよ',
+    options: [
+      { textResponse: 'あいこ', isCorrect: false },
+      { textResponse: 'まいこ', isCorrect: false },
+      { textResponse: 'あやし', isCorrect: true },
+      { textResponse: 'まなし', isCorrect: false },
+    ],
+  },
+  {
+    title: '「柴島」この駅名を答えよ',
+    options: [
+      { textResponse: 'むらさきじま', isCorrect: false },
+      { textResponse: 'あじさいじま', isCorrect: false },
+      { textResponse: 'しじま', isCorrect: false },
+      { textResponse: 'くにじま', isCorrect: true },
+    ],
+  },
 ];
