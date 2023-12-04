@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 import styles from './page.module.css';
 import { usePathname } from 'next/navigation';
 import { ITEMS } from '../components/Items';
-import Link from 'next/link';
 
 const Page = () => {
   const pathname = usePathname();
@@ -47,11 +46,7 @@ const Page = () => {
             </button>
           ))}
         </div>
-        {quizCompleted ? (
-          <div>
-            <Link href='/result'></Link>
-          </div>
-        ) : null}
+        {quizCompleted ? <div></div> : null}
       </div>
     </div>
   );
