@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import styles from './page.module.css';
 import { usePathname } from 'next/navigation';
 import { ITEMS } from '../components/Items';
+import { shuffle } from 'lodash';
 
 const Page = () => {
   const pathname = usePathname();
@@ -41,15 +42,17 @@ const Page = () => {
             {pathData.quizData[currentQuestion].title}
           </h2>
           <div className={styles.choicesContainer}>
-            {pathData.quizData[currentQuestion].options.map((item, index) => (
-              <button
-                key={index}
-                className={styles.choicesItem}
-                onClick={() => handleClick(item.isCorrect)}
-              >
-                {item.textResponse}
-              </button>
-            ))}
+            {shuffle(pathData.quizData[currentQuestion].options).map(
+              (item, index) => (
+                <button
+                  key={index}
+                  className={styles.choicesItem}
+                  onClick={() => handleClick(item.isCorrect)}
+                >
+                  {item.textResponse}
+                </button>
+              )
+            )}
           </div>
         </div>
       )}
