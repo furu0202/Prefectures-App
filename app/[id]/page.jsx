@@ -30,6 +30,7 @@ const Page = () => {
       {quizCompleted ? (
         <div>
           <h2>クイズ結果発表</h2>
+          <p>お疲れ様でした。正解数は: {count}問でした。</p>
         </div>
       ) : (
         <div className={styles.main}>
