@@ -8,7 +8,7 @@ export default function Home() {
         <h1>都道府県クイズ</h1>
       </div>
       <div>
-        <Link className={styles.button} href={'/level'}>
+        <Link className={styles.button} href={'/select'}>
           スタート
         </Link>
       </div>
