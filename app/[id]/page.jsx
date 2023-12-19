@@ -28,8 +28,8 @@ const Page = () => {
   return (
     <div className={styles.container}>
       {quizCompleted ? (
-        <div>
-          <h2>クイズ結果発表</h2>
+        <div className={styles.quizCompletedMain}>
+          <h1>{pathData.title} 結果発表</h1>
           <p>
             お疲れ様でした。正解数は{pathData.quizData.length}問中{count}
             問です。
