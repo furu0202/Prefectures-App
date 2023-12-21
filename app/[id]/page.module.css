@@ -65,3 +65,17 @@
   font-weight: bold;
   text-align: center;
 }
+
+.button {
+  font-size: 24px;
+  display: inline-block;
+  width: 100%;
+  max-width: 300px;
+  overflow: hidden;
+  padding: 1.5rem 3rem;
+  color: #fff;
+  border-radius: 50px;
+  background: #000;
+  cursor: pointer;
+  letter-spacing: 0.3em;
+}

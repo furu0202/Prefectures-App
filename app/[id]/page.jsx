@@ -5,6 +5,7 @@ import styles from './page.module.css';
 import { usePathname } from 'next/navigation';
 import { ITEMS } from '../components/Items';
 import { shuffle } from 'lodash';
+import Link from 'next/link';
 
 const Page = () => {
   const pathname = usePathname();
@@ -34,6 +35,9 @@ const Page = () => {
             お疲れ様でした。正解数は{pathData.quizData.length}問中{count}
             問です。
           </p>
+          <Link className={styles.button} href={'/select'}>
+            コース選択へ戻る
+          </Link>
         </div>
       ) : (
         <div className={styles.main}>
