@@ -31,12 +31,16 @@ const Page = () => {
       {quizCompleted ? (
         <div className={styles.quizCompletedMain}>
           <h1>{pathData.title} 結果発表</h1>
-          <p>
-            お疲れ様でした。正解数は{pathData.quizData.length}問中{count}
+          <p className={styles.resultMessage}>
+            お疲れ様でした。<br></br>正解数は{pathData.quizData.length}問中
+            {count}
             問です。
           </p>
           <Link className={styles.button} href={'/select'}>
             コース選択へ戻る
+          </Link>
+          <Link className={styles.button} href={'/'}>
+            解答を確認する
           </Link>
         </div>
       ) : (

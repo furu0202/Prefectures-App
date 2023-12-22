@@ -79,3 +79,8 @@
   cursor: pointer;
   letter-spacing: 0.3em;
 }
+
+.resultMessage {
+  padding-top: 30px;
+  letter-spacing: 0.4em;
+}
