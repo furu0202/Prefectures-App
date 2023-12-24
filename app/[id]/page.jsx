@@ -32,9 +32,9 @@ const Page = () => {
         <div className={styles.quizCompletedMain}>
           <h1>{pathData.title} 結果発表</h1>
           <p className={styles.resultMessage}>
-            お疲れ様でした。<br></br>正解数は{pathData.quizData.length}問中
+            お疲れ様でした<br></br>正解数は{pathData.quizData.length}問中
             {count}
-            問です。
+            問です
           </p>
           <Link className={styles.button} href={'/select'}>
             コース選択へ戻る
