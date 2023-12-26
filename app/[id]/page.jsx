@@ -36,12 +36,17 @@ const Page = () => {
             {count}
             問です
           </p>
-          <Link className={styles.button} href={'/select'}>
-            コース選択へ戻る
-          </Link>
-          <Link className={styles.button} href={'/'}>
-            解答を確認する
-          </Link>
+          <div className={styles.buttonContainer}>
+            <Link className={styles.button} href={'/'}>
+              もう1度クイズに挑戦する
+            </Link>
+            <Link className={styles.button} href={'/select'}>
+              コース選択へ戻る
+            </Link>
+            <Link className={styles.button} href={'/'}>
+              解答を確認する
+            </Link>
+          </div>
         </div>
       ) : (
         <div className={styles.main}>
