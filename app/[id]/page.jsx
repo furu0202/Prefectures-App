@@ -4,6 +4,8 @@ import React, { useState } from 'react';
 import styles from './page.module.css';
 import { usePathname } from 'next/navigation';
 import { ITEMS } from '../components/Items';
+import { Quiz } from '../components/Quiz';
+import { Result } from '../components/Result';
 import { shuffle } from 'lodash';
 import Link from 'next/link';
 
@@ -28,51 +30,7 @@ const Page = () => {
 
   return (
     <div className={styles.container}>
-      {quizCompleted ? (
-        <div className={styles.quizCompletedMain}>
-          <h1>{pathData.title} 結果発表</h1>
-          <p className={styles.resultMessage}>
-            お疲れ様でした<br></br>正解数は
-            {count}
-            問です
-          </p>
-          <div className={styles.buttonContainer}>
-            <Link className={styles.button} href={'/select'}>
-              コース選択へ戻る
-            </Link>
-            <Link className={styles.button} href={'/'}>
-              解答を確認する
-            </Link>
-            <Link className={styles.button} href={'/'}>
-              もう1度クイズに挑戦する
-            </Link>
-          </div>
-        </div>
-      ) : (
-        <div className={styles.main}>
-          <h1 className={styles.title}>{pathData.title}</h1>
-          <h1 className={styles.questionCount}>
-            第{currentQuestion + 1}問 / 第{pathData.quizData.length}問
-          </h1>
-          <h2 className={styles.totalCorrectAnswer}>現在の正解数:{count}問</h2>
-          <h2 className={styles.questionArea}>
-            {pathData.quizData[currentQuestion].title}
-          </h2>
-          <div className={styles.choicesContainer}>
-            {shuffle(pathData.quizData[currentQuestion].options).map(
-              (item, index) => (
-                <button
-                  key={index}
-                  className={styles.choicesItem}
-                  onClick={() => handleClick(item.isCorrect)}
-                >
-                  {item.textResponse}
-                </button>
-              )
-            )}
-          </div>
-        </div>
-      )}
+      {quizCompleted ? <Result /> : <Quiz />}
     </div>
   );
 };
